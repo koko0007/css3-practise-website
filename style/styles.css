@@ -1,7 +1,26 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin:0%
+}
+main{
+    background-color:#9F9F9F;
+}
+.container{
+    
+    
+}
+.main-section{
+    background-color: white;
+    border: 1px solid #ffffff;
+    width: 870px;
+    margin: auto;
+    padding-top: 33px;
+    padding-left: 33px;
+    padding-right: 33px;
+    
 }
 .player-title{
+    margin-bottom: 30px;
     font-weight: 500;
     font-size: 24px;
     color: #562EFF;
@@ -15,10 +34,46 @@ body{
     font-weight: 500;
     font-size: 18px;
 }
+.players{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
 .player{
     display: flex;
     
 }
 .player-name{
     margin-left: 16px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.blog-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:26px;
+    padding-bottom: 30px;
+}
+.blog-images img{
+    width: 177px;
+    height: 117px;
+}
+.blog-flex{
+    display: flex;
+
+}
+.blog-content{
+    margin-left: 16px;
+}
+.blog-titles{
+    font-weight: 500;
+    font-size: 20px;
+    
+}
+.author{
+    font-size: 16px;
 }
