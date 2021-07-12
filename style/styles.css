@@ -1,0 +1,24 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.player-title{
+    font-weight: 500;
+    font-size: 24px;
+    color: #562EFF;
+
+}
+.player-image{
+    width: 56px;
+    height: 56px;
+}
+.player-name{
+    font-weight: 500;
+    font-size: 18px;
+}
+.player{
+    display: flex;
+    
+}
+.player-name{
+    margin-left: 16px;
+}
